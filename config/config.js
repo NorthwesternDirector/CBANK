@@ -104,6 +104,12 @@ export default {
               component: './Welcome',
             },
             {
+              path: '/consumptionDetails',
+              name: 'consumptionDetails',
+              icon: 'account-book',
+              component: './consumptionDetails',
+            },
+            {
               path: '/admin',
               name: 'admin',
               icon: 'crown',

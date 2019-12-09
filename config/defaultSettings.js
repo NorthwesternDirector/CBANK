@@ -1,17 +1,18 @@
 export default {
-  navTheme: 'dark',
-  // 拂晓蓝
-  primaryColor: 'daybreak',
-  layout: 'sidemenu',
-  contentWidth: 'Fluid',
-  fixedHeader: false,
+  navTheme: 'light',
+  primaryColor: '#1890FF',
+  layout: 'topmenu',
+  contentWidth: 'Fixed',
+  fixedHeader: true,
   autoHideHeader: false,
   fixSiderbar: false,
   colorWeak: false,
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: '个人账单系统',
   pwa: false,
   iconfontUrl: '',
+  language: "zh",
 };
+
