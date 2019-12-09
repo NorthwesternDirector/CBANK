@@ -49,4 +49,8 @@ export default {
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
   'menu.consumptionDetails': '个人账单',
+  'menu.statistics': '统计',
+  'menu.annualReport': '消费年报',
+  'menu.accountBook': '记账本',
+
 };

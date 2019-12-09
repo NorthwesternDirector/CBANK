@@ -110,6 +110,24 @@ export default {
               component: './consumptionDetails',
             },
             {
+              path: '/statistics',
+              name: 'statistics',
+              icon: 'pie-chart',
+              component: './statistics',
+            },
+            {
+              path: '/annualReport',
+              name: 'annualReport',
+              icon: 'stock',
+              component: './annualReport',
+            },
+            {
+              path: '/accountBook',
+              name: 'accountBook',
+              icon: 'highlight',
+              component: './accountBook',
+            }, 
+            {
               path: '/admin',
               name: 'admin',
               icon: 'crown',
