@@ -10,7 +10,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: '个人账单系统',
+  title: '公司对账系统',
   pwa: false,
   iconfontUrl: '',
   language: "zh",

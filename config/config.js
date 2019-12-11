@@ -128,6 +128,12 @@ export default {
               component: './accountBook',
             }, 
             {
+              path: '/accountConfirm',
+              name: 'accountConfirm',
+              icon: 'copy',
+              component: './accountConfirm',
+            }, 
+            {
               path: '/admin',
               name: 'admin',
               icon: 'crown',
