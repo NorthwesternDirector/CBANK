@@ -11,6 +11,11 @@ const AccountBook = ({ dispatch, accountListL, accountListR, loading }) => {
   const [dataOk, setDataOk] = useState(false)
   const columns = [
     {
+      title: '交易时间1',
+      dataIndex: '交易时间1',
+      key: '交易时间1',
+    },
+    {
       title: '交易时间',
       dataIndex: '交易时间',
       key: '交易时间',

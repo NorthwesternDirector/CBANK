@@ -41,13 +41,13 @@ const Statistics = ({ loading, expenseListByMonth, dispatch }) => {
             </Col>
             <Col span={4} offset={2}>
               <Card style={{ textAlign: 'center' }} onClick={() => setSelectType('0-out')} hoverable>
-                支出
+                贷出
                 {expenseListByMonth && expenseListByMonth.length ? <p style={{ fontSize: 25, marginBottom: 0 }}>¥{expenseListByMonth[0].out.total}</p> : <p></p>}
               </Card>
             </Col>
             <Col span={4}>
               <Card style={{ textAlign: 'center' }} onClick={() => setSelectType('1-in')} hoverable>
-                收入
+                存入
                 {expenseListByMonth && expenseListByMonth.length ? <p style={{ fontSize: 25, marginBottom: 0 }}>¥{expenseListByMonth[0].in.total}</p> : <p></p>}
               </Card>
             </Col>
@@ -55,13 +55,13 @@ const Statistics = ({ loading, expenseListByMonth, dispatch }) => {
           <Row gutter={24} style={{ marginTop: 24 }}>
             <Col span={12}>
               <Card>
-                {selectType === '0-out' ? '每日支出' : '每日收入'}
+                {selectType === '0-out' ? '每日贷出' : '每日存入'}
                 {expenseListByMonth && expenseListByMonth.length ? <Line data={expenseListByMonth} selectType={selectType} category={selectDates} chartHeight={300}></Line> : null}
               </Card>
             </Col>
             <Col span={12}>
               <Card>
-              {selectType === '0-out' ? '支出分类' : '收入分类'}
+              {selectType === '0-out' ? '贷出分类' : '存入分类'}
               {expenseListByMonth && expenseListByMonth.length ? <Pie data={expenseListByMonth} selectType={selectType} chartHeight={300} radius = "58%" center = {['50%', '45%']}></Pie> : null}
               </Card>
             </Col>

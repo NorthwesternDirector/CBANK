@@ -49,7 +49,7 @@ export default {
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
   'menu.consumptionDetails': '账单明细',
-  'menu.statistics': '账单统计',
+  'menu.statistics': '账目统计',
   'menu.annualReport': '账单年报',
   'menu.accountBook': '对账簿',
   'menu.accountConfirm': '批次处理',
